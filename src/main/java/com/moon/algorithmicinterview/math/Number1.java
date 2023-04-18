@@ -1,6 +1,7 @@
 package com.moon.algorithmicinterview.math;
 
 /**
+ * LeetCode 1551
  * @author Chanmoey
  * @date 2023年04月10日
  */
