@@ -25,3 +25,9 @@
 | 题号  | 题目                                     | 来源                                                                          | 题解                                                                                                                                     |
 |-----|----------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | 1552. Magnetic Force Between Two Balls | [LeetCode](https://leetcode.com/problems/magnetic-force-between-two-balls/) | [Number1](https://github.com/Chanmoey/algorithmic-interview/blob/main/src/main/java/com/moon/algorithmicinterview/string/Number1.java) |
+
+## 数组
+
+| 题号  | 题目                                    | 来源                                                                          | 题解                                                                                                                                     |
+|-----|---------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | 283. Move Zeroes| [LeetCode](https://leetcode.com/problems/move-zeroes/) | [Number1](https://github.com/Chanmoey/algorithmic-interview/blob/main/src/main/java/com/moon/algorithmicinterview/string/Number1.java) |
