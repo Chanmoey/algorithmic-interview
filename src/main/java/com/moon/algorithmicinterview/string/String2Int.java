@@ -16,7 +16,5 @@ public class String2Int {
             res = res * 10 + (str.charAt(i) - '0');
         }
         return res;
-
-        Integer.parseInt()
     }
 }
