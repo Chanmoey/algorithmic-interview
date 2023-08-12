@@ -34,7 +34,7 @@ class Solution {
             return this.memo[m][n];
         }
 
-        int res = 0;
+        int res;
         if (text1.charAt(m) == text2.charAt(n)) {
             res = search(text1, text2, m - 1, n - 1) + 1;
         } else {
