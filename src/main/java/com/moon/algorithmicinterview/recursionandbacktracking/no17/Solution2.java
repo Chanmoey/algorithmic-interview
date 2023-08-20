@@ -17,17 +17,18 @@ class Solution2 {
 
     // -1表示可以到达Pacific Ocean, 1表示可以到达Atlantic Ocean
     // 2表示可以到达两个海洋，3表示什么都不可以
-    private boolean[][] pacific;
-    private boolean[][] atlantic;
+
     private int n;
     private int m;
 
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
+        boolean[][] atlantic;
+        boolean[][] pacific;
         List<List<Integer>> res = new ArrayList<>();
         this.n = heights.length;
         this.m = heights[0].length;
-        this.pacific = new boolean[n][m];
-        this.atlantic = new boolean[n][m];
+        pacific = new boolean[n][m];
+        atlantic = new boolean[n][m];
 
         for (int i = 0; i < this.m; i++) {
             floodFill(heights, 0, i, pacific);
