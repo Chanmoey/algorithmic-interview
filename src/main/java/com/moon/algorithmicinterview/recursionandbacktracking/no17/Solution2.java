@@ -1,7 +1,6 @@
 package com.moon.algorithmicinterview.recursionandbacktracking.no17;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
