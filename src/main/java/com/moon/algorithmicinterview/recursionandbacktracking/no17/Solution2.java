@@ -15,9 +15,6 @@ class Solution2 {
 
     private static final int[][] DIR = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
-    // -1表示可以到达Pacific Ocean, 1表示可以到达Atlantic Ocean
-    // 2表示可以到达两个海洋，3表示什么都不可以
-
     private int n;
     private int m;
 
